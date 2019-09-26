@@ -13,11 +13,22 @@
 
 
 /* Window and Body Styles */
-
+html{
+   background: rgb(101, 101, 101);
+}
 
 
 /* Body Header Styles */
-
+body{
+   background: white;
+   font-family: 'Verdana, Geneva, Arial', sans-serif;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 95%;
+   
+}
 
 
 /* DIV Container Styles */

@@ -16,6 +16,7 @@
 /* Grid Rows Styles */
 div{
    width: 100%;
+   clear: both;
 }
 
 
@@ -57,6 +58,8 @@ div-column80{
 
 
 /* Grid Spacing Styles */
-div.container, div.row, div.{
+div.container, div.row, 
+div[class^="col"], div[class^="cell"]{
    box-sizing: border-box;
 }
+
