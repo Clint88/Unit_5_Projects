@@ -14,15 +14,19 @@
 
 
 /* Grid Rows Styles */
-div{
+div.row{
    width: 100%;
    clear: both;
 }
-
+.row{
+   clear: both;
+   content: "";
+   display: table;
+}
 
 
 /* Grid Columns Styles */
-div[class^="col-"]{
+div[class^="column"]{
    float: left;
 }
 div-column100{
@@ -59,7 +63,7 @@ div-column80{
 
 /* Grid Spacing Styles */
 div.container, div.row, 
-div[class^="col"], div[class^="cell"]{
+div[class^="column"], div.cell, div.cell>a{
    box-sizing: border-box;
 }
 

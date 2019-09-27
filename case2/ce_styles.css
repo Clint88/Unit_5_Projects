@@ -17,22 +17,67 @@ html{
    background: rgb(101, 101, 101);
 }
 
-
 /* Body Header Styles */
+/*making the position relitive made everything in its origanal spot*/
 body{
    background: white;
-   font-family: 'Verdana, Geneva, Arial', sans-serif;
+   font-family: Verdana, Geneva, Arial, sans-serif;
    margin-top: 20px;
    margin-bottom: 20px;
    margin-right: auto;
    margin-left: auto;
    width: 95%;
-   
+   position: relative; 
+}
+img{
+   display: block;
+   width: 100%;
+}
+nav a{
+   list-style-type: none;
+   text-decoration: none;
+}
+body header{
+   background-color: rgb(191, 68, 70);
+   height: 40px;
+}
+body header ul li{
+   display: block;
+   float: left;
+   margin-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+nav a:visited, nav a:link{
+   font-size: 0.9em;
+   color: rgb(51, 51, 51);
+}
+nav a:hover, nav a:active{
+   color: rgb(255, 211, 211);
+}
+
+/* DIV Container Styles */
+div.container{
+   padding-right: 8px;
+   padding-bottom: 8px;
+}
+div.cell a{
+   display: block;
+   width: 100%;
+   padding-top: 8px;
+   padding-left: 8px;
 }
 
 
-/* DIV Container Styles */
-
-
-
 /* Footer Styles */
+/*making the position absolute will allow it to move anywhere*/
+footer{
+   position: absolute;
+   color: rgb(143, 33, 36);
+   text-align: right;
+   font-size: 2vmin;
+   right: 8px;
+   bottom: 8px;
+}
